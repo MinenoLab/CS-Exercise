@@ -1,0 +1,4 @@
+book/_build/
+book/.jupyter_cache/
+.venv/
+
