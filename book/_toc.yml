@@ -3,7 +3,13 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: 第１部 Python基礎
+    chapters:
+      - file: python_basic
+  - caption: 第２部 画像認識
+    chapters:
+      - file: markdown
+  - caption: 第３部 時系列予測
+    chapters:
+      - file: notebooks.ipynb

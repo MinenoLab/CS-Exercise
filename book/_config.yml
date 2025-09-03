@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Computer Science Exercises
-author: The wacky guys of MinenoLab
-logo: logo.png
+title: 情報科学演習
+author: the wacky guys of MinenoLab
+logo: images/logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
