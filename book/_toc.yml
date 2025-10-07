@@ -12,4 +12,13 @@ parts:
       - file: markdown
   - caption: 第３部 時系列予測
     chapters:
-      - file: notebooks.ipynb
+      - file: part3_timeseries/intro
+        title: 概要
+      - file: part3_timeseries/notebooks/01_pandas_basics
+        title: 01. Pandasの基礎
+      - file: part3_timeseries/notebooks/02_visualization_basics
+        title: 02. データ可視化の基礎
+      - file: part3_timeseries/notebooks/03_time_series_features
+        title: 03. 特徴量エンジニアリング
+      - file: part3_timeseries/notebooks/04_prediction_model
+        title: 04. 予測モデルの構築
