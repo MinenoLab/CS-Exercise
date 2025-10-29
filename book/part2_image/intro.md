@@ -18,8 +18,8 @@ project_root/
 ├── intro.md                # この概要ページ
 ├── requirements.txt        # pip/condaで使う依存リスト
 ├── data/                   # データセット（画像や学習データ）
-├── images/                 # 教材内で参照する画像ファイル
 ├── notebooks/              # Jupyter Notebook（教材本体）
+│   ├── images/              # ノートブック内で使う画像ファイル
 │   ├── 00_Setup.ipynb
 │   ├── 01_ImageProcessing.ipynb
 │   └── 02_MachineLearning_Mnist.ipynb
@@ -49,5 +49,3 @@ project_root/
 ## 📝 実行環境
 
 環境を再現するためには `requirements.txt`（または `environment.yml` を使う場合はそちら）を参照し、仮想環境を作成してください。ノートブック内に実行例を記載しています。
-
----

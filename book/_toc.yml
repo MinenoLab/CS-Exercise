@@ -9,7 +9,14 @@ parts:
       - file: python_basic
   - caption: 第２部 画像認識
     chapters:
-      - file: markdown
+      - file: part2_image/intro
+        title: 概要
+      - file: part2_image/notebooks/01_setup
+        title: 01. 作業サーバーセットアップ
+      - file: part2_image/notebooks/02_image_processing
+        title: 02. 画像処理
+      - file: part2_image/notebooks/03_machine_learning
+        title: 03. 機械学習
   - caption: 第３部 時系列予測
     chapters:
       - file: part3_timeseries/intro
