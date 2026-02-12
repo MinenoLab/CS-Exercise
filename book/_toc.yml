@@ -4,10 +4,7 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 第１部 Python基礎
-    chapters:
-      - file: python_basic
-  - caption: 第２部 画像認識
+  - caption: 第１部 画像認識
     chapters:
       - file: part2_image/intro
         title: 概要
@@ -17,7 +14,7 @@ parts:
         title: 02. 画像処理
       - file: part2_image/notebooks/03_machine_learning
         title: 03. 機械学習
-  - caption: 第３部 時系列予測
+  - caption: 第２部 時系列予測
     chapters:
       - file: part3_timeseries/intro
         title: 概要
