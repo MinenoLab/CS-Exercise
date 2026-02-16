@@ -28,3 +28,15 @@ parts:
         title: 03. 特徴量エンジニアリング
       - file: part3_timeseries/notebooks/04_prediction_model
         title: 04. 予測モデルの構築
+  - caption: 第３部 IoTシステム構築
+    chapters:
+      - file: part4_iot/intro
+        title: 概要
+      - file: part4_iot/notebooks/01_raspi_setup
+        title: 01. Raspiセットアップ
+      - file: part4_iot/notebooks/02_pinode_setup
+        title: 02. PiNodeセットアップ
+      - file: part4_iot/notebooks/03_spresense_setup
+        title: 03. Spresenseセットアップ
+      - file: part4_iot/04_iot_physical_install
+        title: 04. 現場作業注意事項
