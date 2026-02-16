@@ -14,6 +14,8 @@ parts:
         title: 02. 画像処理
       - file: part2_image/notebooks/03_machine_learning
         title: 03. 機械学習
+      - file: part2_image/summary
+        title: まとめ
   - caption: 第２部 時系列予測
     chapters:
       - file: part3_timeseries/intro
