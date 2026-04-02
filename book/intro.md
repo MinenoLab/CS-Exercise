@@ -3,7 +3,7 @@
 　本リポジトリでは，[静岡大学情報学部情報科学科 峰野研究室](https://wwp.shizuoka.ac.jp/minelab/)が作成・提供する教育・研究関連コンテンツを公開しています．学部3年次科目「情報科学演習」の教材をはじめ，興味のある学外の方にも自習用として活用いただけるよう，地域社会への貢献の一環として一般公開しています．
 
 ## 情報科学演習
-### **画像認識パート**
+### 画像認識パート
 - [**概要**](https://minenolab.github.io/CS-Exercise/part2_image/intro.html)
 
 1. [**作業サーバーセットアップ**](https://minenolab.github.io/CS-Exercise/part2_image/notebooks/01_setup.html)
@@ -11,7 +11,7 @@
 3. [**機械学習**](https://minenolab.github.io/CS-Exercise/part2_image/notebooks/03_machine_learning.html)
 
 - [**まとめ**](https://minenolab.github.io/CS-Exercise/part2_image/summary.html)
-### **時系列予測パート**
+### 時系列予測パート
 - [**概要**](https://minenolab.github.io/CS-Exercise/part3_timeseries/intro.html#id4)
 
 1. [**Pandasの基礎**](https://minenolab.github.io/CS-Exercise/part3_timeseries/notebooks/01_pandas_basics.html)
