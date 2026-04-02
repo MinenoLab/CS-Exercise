@@ -29,12 +29,15 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   baseurl: https://MinenoLab.github.io/CS-Exercise/
-  use_repository_button: true
-  use_issues_button: true
 
 sphinx:
   config:
     html_theme_options:
+      repository_url: https://github.com/MinenoLab/CS-Exercise
+      repository_branch: main
+      path_to_docs: book
+      use_repository_button: true
+      use_issues_button: true
       logo:
         text: 静岡大学情報学部  峰野研究室公開教材
       show_navbar_depth: 1
