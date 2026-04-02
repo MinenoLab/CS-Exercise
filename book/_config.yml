@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: 静岡大学情報学部情報科学科峰野研究室 公開教材・研究関連リソース
+title: 静岡大学情報学部 峰野研究室公開教材
 author: the wacky guys of MinenoLab
-logo: images/minelab_logo2.png
+logo: images/minelab_logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -35,6 +35,8 @@ html:
 sphinx:
   config:
     html_theme_options:
-      show_navbar_depth: 2
+      logo:
+        text: 静岡大学情報学部  峰野研究室公開教材
+      show_navbar_depth: 1
       max_navbar_depth: 3
       collapse_navbar: false
