@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: 情報科学演習
+title: 静岡大学情報学部情報科学科峰野研究室 公開教材・研究関連リソース
 author: the wacky guys of MinenoLab
-# logo: images/logo.png
+logo: images/minelab_logo2.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -31,4 +31,10 @@ html:
   baseurl: https://MinenoLab.github.io/CS-Exercise/
   use_repository_button: true
   use_issues_button: true
-  use_repository_button: true
+
+sphinx:
+  config:
+    html_theme_options:
+      show_navbar_depth: 2
+      max_navbar_depth: 3
+      collapse_navbar: false

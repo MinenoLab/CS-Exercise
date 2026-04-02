@@ -4,39 +4,41 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 第１部 画像認識
+  - caption: 情報科学演習
     chapters:
       - file: part2_image/intro
-        title: 概要
-      - file: part2_image/notebooks/01_setup
-        title: 01. 作業サーバーセットアップ
-      - file: part2_image/notebooks/02_image_processing
-        title: 02. 画像処理
-      - file: part2_image/notebooks/03_machine_learning
-        title: 03. 機械学習
-      - file: part2_image/summary
-        title: まとめ
-  - caption: 第２部 時系列予測
-    chapters:
+        title: 第１部 画像認識
+        sections:
+          - file: part2_image/notebooks/01_setup
+            title: 01. 作業サーバーセットアップ
+          - file: part2_image/notebooks/02_image_processing
+            title: 02. 画像処理
+          - file: part2_image/notebooks/03_machine_learning
+            title: 03. 機械学習
+          - file: part2_image/summary
+            title: まとめ
+      
       - file: part3_timeseries/intro
-        title: 概要
-      - file: part3_timeseries/notebooks/01_pandas_basics
-        title: 01. Pandasの基礎
-      - file: part3_timeseries/notebooks/02_visualization_basics
-        title: 02. データ可視化の基礎
-      - file: part3_timeseries/notebooks/03_time_series_features
-        title: 03. 特徴量エンジニアリング
-      - file: part3_timeseries/notebooks/04_prediction_model
-        title: 04. 予測モデルの構築
-  - caption: 第３部 IoTシステム構築
-    chapters:
+        title: 第２部 時系列予測
+        sections:
+          - file: part3_timeseries/notebooks/01_pandas_basics
+            title: 01. Pandasの基礎
+          - file: part3_timeseries/notebooks/02_visualization_basics
+            title: 02. データ可視化の基礎
+          - file: part3_timeseries/notebooks/03_time_series_features
+            title: 03. 特徴量エンジニアリング
+          - file: part3_timeseries/notebooks/04_prediction_model
+            title: 04. 予測モデルの構築
+
       - file: part4_iot/intro
-        title: 概要
-      - file: part4_iot/notebooks/01_raspi_setup
-        title: 01. Raspiセットアップ
-      - file: part4_iot/notebooks/02_pinode_setup
-        title: 02. PiNodeセットアップ
-      - file: part4_iot/notebooks/03_spresense_setup
-        title: 03. Spresenseセットアップ
-      - file: part4_iot/04_iot_physical_install
-        title: 04. 現場作業注意事項
+        title: 第３部 IoTシステム構築
+        sections:
+          - file: part4_iot/notebooks/01_raspi_setup
+            title: 01. Raspiセットアップ
+          - file: part4_iot/notebooks/02_pinode_setup
+            title: 02. PiNodeセットアップ
+          - file: part4_iot/notebooks/03_spresense_setup
+            title: 03. Spresenseセットアップ
+          - file: part4_iot/04_iot_physical_install
+            title: 04. 現場作業注意事項
+  - caption: その他教育・研究関連コンテンツ
