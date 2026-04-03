@@ -4,23 +4,24 @@
 
 ## 情報科学演習
 ### 第1部 画像認識パート
-- [**概要**](https://minenolab.github.io/CS-Exercise/part2_image/intro.html)
-1. [**作業サーバーセットアップ**](https://minenolab.github.io/CS-Exercise/part2_image/notebooks/01_setup.html)
-2. [**画像処理**](https://minenolab.github.io/CS-Exercise/part2_image/notebooks/02_image_processing.html)
-3. [**機械学習**](https://minenolab.github.io/CS-Exercise/part2_image/notebooks/03_machine_learning.html)
-- [**まとめ**](https://minenolab.github.io/CS-Exercise/part2_image/summary.html)
+- [**概要**](part2_image/intro)
+1. [**作業サーバーセットアップ**](part2_image/notebooks/01_setup)
+2. [**画像処理**](part2_image/notebooks/02_image_processing)
+3. [**機械学習**](CS-Exercise/part2_image/notebooks/03_machine_learning)
+4. [**キャッサバの病害分類**](part2_image/cassava_classification)
+- [**まとめ**](part2_image/summary)
 ### 第2部 時系列予測パート
-- [**概要**](https://minenolab.github.io/CS-Exercise/part3_timeseries/intro.html#id4)
-1. [**Pandasの基礎**](https://minenolab.github.io/CS-Exercise/part3_timeseries/notebooks/01_pandas_basics.html)
-2. [**データ可視化の基礎**](https://minenolab.github.io/CS-Exercise/part3_timeseries/notebooks/02_visualization_basics.html)
-3. [**特徴量エンジニアリング**](https://minenolab.github.io/CS-Exercise/part3_timeseries/notebooks/03_time_series_features.html)
-4. [**予測モデルの構築**](https://minenolab.github.io/CS-Exercise/part3_timeseries/notebooks/04_prediction_model.html)
+- [**概要**](part3_timeseries/intro)
+1. [**Pandasの基礎**](part3_timeseries/notebooks/01_pandas_basics)
+2. [**データ可視化の基礎**](part3_timeseries/notebooks/02_visualization_basics)
+3. [**特徴量エンジニアリング**](part3_timeseries/notebooks/03_time_series_features)
+4. [**予測モデルの構築**](part3_timeseries/notebooks/04_prediction_model)
 ### 第3部IoTシステム構築パート
-- [**概要**](https://minenolab.github.io/CS-Exercise/part4_iot/intro.html#)
-1. [**RaspberryPiセットアップ**](https://minenolab.github.io/CS-Exercise/part4_iot/notebooks/01_raspi_setup.html)
-2. [**PiNodeセットアップ**](https://minenolab.github.io/CS-Exercise/part4_iot/notebooks/02_pinode_setup.html)
-3. [**Spresenseセットアップ**](https://minenolab.github.io/CS-Exercise/part4_iot/notebooks/03_spresense_setup.html)
-4. [**現場作業注意事項**](https://minenolab.github.io/CS-Exercise/part4_iot/04_iot_physical_install.html)
+- [**概要**](part4_iot/intro)
+1. [**RaspberryPiセットアップ**](part4_iot/notebooks/01_raspi_setup)
+2. [**PiNodeセットアップ**](part4_iot/notebooks/02_pinode_setup)
+3. [**Spresenseセットアップ**](part4_iot/notebooks/03_spresense_setup)
+4. [**現場作業注意事項**](part4_iot/04_iot_physical_install)
 
 ## その他教育・研究関連コンテンツ
 順次公開予定

@@ -17,12 +17,20 @@
 project_root/
 ├── intro.md                # この概要ページ
 ├── requirements.txt        # pip/condaで使う依存リスト
+├── summary.md              # まとめページ
 ├── data/                   # データセット（画像や学習データ）
 ├── notebooks/              # Jupyter Notebook（教材本体）
-│   ├── images/              # ノートブック内で使う画像ファイル
+│   ├── images/             # ノートブック内で使う画像ファイル
 │   ├── 00_Setup.ipynb
 │   ├── 01_ImageProcessing.ipynb
 │   └── 02_MachineLearning_Mnist.ipynb
+├── cassava_sample/         # キャッサバの病害分類のサンプルプログラム
+│   ├── dataset.py    
+│   ├── main.py
+│   ├── model.py
+│   ├── train_eval.py
+│   ├── utils.py
+│   └── visualize.py
 └── util.py                 # 教材で共通利用するユーティリティ関数
 ```
 

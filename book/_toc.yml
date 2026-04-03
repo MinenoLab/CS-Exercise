@@ -15,6 +15,8 @@ parts:
             title: 02. 画像処理
           - file: part2_image/notebooks/03_machine_learning
             title: 03. 機械学習
+          - file: part2_image/cassava_classification
+            title: 04. キャッサバの病害分類
           - file: part2_image/summary
             title: まとめ
       
