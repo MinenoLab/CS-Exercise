@@ -43,6 +43,7 @@ parts:
             title: 03. Spresenseセットアップ
           - file: part4_iot/04_iot_physical_install
             title: 04. 現場作業注意事項
-        - caption: 先端情報学実習
+            
+    - caption: 先端情報学実習
 
   # - caption: その他教育・研究関連コンテンツ
