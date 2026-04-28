@@ -21,7 +21,7 @@ parts:
             title: 05. キャッサバの病害分類(アプローチ例)
           - file: part2_image/summary
             title: まとめ
-      
+
       - file: part3_timeseries/intro
         title: 第２部 時系列予測
         sections:
@@ -45,4 +45,8 @@ parts:
             title: 03. Spresenseセットアップ
           - file: part4_iot/04_iot_physical_install
             title: 04. 現場作業注意事項
+
+  - caption: 先端情報学実習
+    chapters:
+      - file: 適切なファイルパス  # ← ここに最低1つchapterを追加
   # - caption: その他教育・研究関連コンテンツ
