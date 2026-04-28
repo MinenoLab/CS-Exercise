@@ -136,3 +136,44 @@ project_root/
 
 ```bash
 python main.py --data_dir ./dataset --epochs 10 --batch_size 32 --lr 1e-3
+```
+
+## 評価指標
+本サンプルプログラムでは，主に以下の指標を用いてモデルを評価します．
+
+- **Loss**  
+  予測と正解ラベルのずれを表す指標であり，値が小さいほど予測が正解に近いことを意味します．
+  訓練データに対する `train_loss` と，検証データに対する `val_loss` を確認します．
+
+- **Accuracy**  
+  正しく分類できた割合を表す指標であり，値が大きいほど正しく分類できていることを意味します．
+  `train_acc` と `val_acc` を記録し，検証データにおける精度が最も高かったモデルを最良モデルとして保存します．
+
+- **Confusion Matrix(混同行列)**  
+  各クラスの正分類・誤分類の状況を表形式で確認できます．  
+  どのクラス同士が混同されやすいかを把握するのに役立ちます．
+
+- **Precision**  
+  あるクラスだと予測したもののうち，実際にそのクラスであった割合を示します．
+
+- **Recall**  
+  実際にそのクラスであるもののうち，正しくそのクラスだと判定できた割合を示します．
+
+- **F1-score**  
+  Precision と Recall のバランスを表す指標です．
+
+## 結果の出力
+プログラムを実行すると，`results` ディレクトリに主に以下の結果が保存されます．
+
+- `train_log.csv`  
+  各エポックの loss，accuracy，学習時間
+- `learning_curve.png`  
+  学習曲線
+- `best_model.pth`  
+  検証精度が最も高かったモデル
+- `confusion_matrix.png`  
+混同行列
+- `classification_report.txt`  
+  Precision，Recall，F1-score などをまとめた評価結果
+- `misclassified.png`  
+  誤分類例

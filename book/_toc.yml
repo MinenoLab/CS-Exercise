@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 情報科学演習
+  - caption: 情報科学演習(学部3年向け)
     chapters:
       - file: part2_image/intro
         title: 第１部 画像認識
@@ -15,8 +15,10 @@ parts:
             title: 02. 画像処理
           - file: part2_image/notebooks/03_machine_learning
             title: 03. 機械学習
-          - file: part2_image/cassava_classification
-            title: 04. キャッサバの病害分類
+          - file: part2_image/cassava_overview
+            title: 04. キャッサバの病害分類(概要)
+          - file: part2_image/cassava_approach_example
+            title: 05. キャッサバの病害分類(アプローチ例)
           - file: part2_image/summary
             title: まとめ
       
