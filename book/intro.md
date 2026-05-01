@@ -25,4 +25,4 @@
 4. [**現場作業注意事項**](part4_iot/04_iot_physical_install)
 
 ## その他教育・研究関連コンテンツ
-順次公開予定
+- [**Beam Proアプリの試作**](other_research/beam_pro_field_input_support/beam_pro_field_input_support)

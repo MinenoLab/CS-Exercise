@@ -49,4 +49,8 @@ parts:
   - caption: 先端情報学実習
     chapters:
       - file: 適切なファイルパス  # ← ここに最低1つchapterを追加
-  # - caption: その他教育・研究関連コンテンツ
+
+  - caption: その他教育・研究関連コンテンツ
+    chapters:
+      - file: other_research/beam_pro_field_input_support/beam_pro_field_input_support
+        title: Beam Proアプリの試作
