@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 情報科学演習(学部3年向け)
+  - caption: 情報科学演習（学部3年生向け）
     chapters:
       - file: part2_image/intro
         title: 第１部 画像認識
@@ -16,9 +16,9 @@ parts:
           - file: part2_image/notebooks/03_machine_learning
             title: 03. 機械学習
           - file: part2_image/cassava_overview
-            title: 04. キャッサバの病害分類(概要)
+            title: 04. キャッサバの病害分類（概要）
           - file: part2_image/cassava_approach_example
-            title: 05. キャッサバの病害分類(アプローチ例)
+            title: 05. キャッサバの病害分類（アプローチ例）
           - file: part2_image/summary
             title: まとめ
 
@@ -40,7 +40,7 @@ parts:
           - file: part4_iot/notebooks/01_raspi_setup
             title: 01. Raspiセットアップ
           - file: part4_iot/notebooks/02_pinode_setup
-            title: 02. PiNodeセットアップ
+            title: 02. PiNode3セットアップ
           - file: part4_iot/notebooks/03_spresense_setup
             title: 03. Spresenseセットアップ
           - file: part4_iot/04_iot_physical_install
@@ -53,4 +53,4 @@ parts:
   - caption: その他教育・研究関連コンテンツ
     chapters:
       - file: other_research/beam_pro_field_input_support/beam_pro_field_input_support
-        title: Beam Proアプリの試作
+        title: XREAL Beam Proアプリ試作
