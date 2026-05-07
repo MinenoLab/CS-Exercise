@@ -43,3 +43,5 @@ sphinx:
       show_navbar_depth: 1
       max_navbar_depth: 3
       collapse_navbar: false
+    html_context:
+      copyright: "2026 Mineno Laboratory"
