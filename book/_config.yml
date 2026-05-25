@@ -45,3 +45,5 @@ sphinx:
       collapse_navbar: false
     html_context:
       copyright: "2026 Mineno Laboratory"
+    html_extra_path:
+      - other_research/so-arm101_setup/videos

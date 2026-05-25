@@ -54,3 +54,5 @@ parts:
     chapters:
       - file: other_research/beam_pro_field_input_support/beam_pro_field_input_support
         title: XREAL Beam Proアプリ試作
+      - file: other_research/so-arm101_setup/so-arm101_setup
+        title: SO-ARM101 構築手順まとめ
