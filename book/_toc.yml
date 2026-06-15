@@ -56,3 +56,5 @@ parts:
         title: XREAL Beam Proアプリ試作
       - file: other_research/so-arm101_setup/so-arm101_setup
         title: SO-ARM101 構築手順まとめ
+      - file: other_research/label-studio_setup/label-studio_setup
+        title: Label Studio ML Backend 環境構築まとめ

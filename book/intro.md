@@ -26,3 +26,5 @@
 
 ## その他教育・研究関連コンテンツ
 - [**XREAL Beam Proアプリ試作**](other_research/beam_pro_field_input_support/beam_pro_field_input_support)
+- [**SO-ARM101 構築手順まとめ**](other_research/so-arm101_setup/so-arm101_setup)
+- [**Label Studio ML Backend環境構築まとめ**](other_research/label-studio_setup/label-studio_setup)
