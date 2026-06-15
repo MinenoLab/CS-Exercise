@@ -1,43 +1,10 @@
-# Label Studio 環境構築・使い方メモ
+# Label Studio ML Backend 環境構築・使用方法まとめ
 
-## 1. 記載すべき環境
-
-後から記入するため，使用環境を以下にまとめる．
-
-* OS：
-* サーバー名：
-* サーバーの IP アドレス：
-* GPU：
-* CUDA バージョン：
-* Python バージョン：
-* pip バージョン：
-* Label Studio バージョン：1.23.0
-* Label Studio ML Backend バージョン：
-* Docker バージョン：
-* Docker Compose バージョン：
-* 使用ブラウザ：
-* 使用ポート：
-
-  * Label Studio：
-  * YOLO ML Backend：
-* 使用モデル：
-* 使用データセット：
-* 作業ディレクトリ：
-
-  * Label Studio：
-  * YOLO ML Backend：
-* 接続方法：
-
-  * SSH：
-  * VPN：
-
----
-
-## 2. 概要
+## 1. 概要
 
 Label Studio は，画像・動画・テキスト・音声・時系列データなどに対してアノテーションを行うためのツールである．本ページでは，画像に対して BBox(Bounding Box)・OBB(Oriented Bounding Box) などのアノテーションを行い，YOLO の学習用データとして利用する方法について解説する．また，作業を効率化する方法として，YOLO ML Backend を接続し，学習済みモデルによる予測結果を Label Studio 上に表示して修正しながらアノテーションを進める方法についても説明する．
 
-### 2.1 Label Studio で扱える主なアノテーション形式
+### 1.1 Label Studio で扱える主なアノテーション形式
 
 Label Studio では，Labeling Interface の設定を変更することで，様々な形式のアノテーションを行うことができる．
 
@@ -98,6 +65,23 @@ Label Studio では，Labeling Interface の設定を変更することで，様
 | DateTime   | 日時入力         | `DateTime`              |
 | Relation   | 領域・ラベル間の関係付け | `Relation`, `Relations` |
 | Magic Wand | 画像領域の半自動選択   | `Magicwand`             |
+
+---
+
+## 2. 使用環境
+
+本ページで使用した環境を以下に示す．
+
+* OS: Ubuntu 24.04.3 LTS
+* GPU: NVIDIA RTX PRO 6000 Blackwell 
+* CUDA バージョン: 12.9
+* Python バージョン: 3.13.9
+* pip バージョン: 25.2
+* Label Studio バージョン: 1.23.0
+* Label Studio ML Backend の Githubリポジトリ: https://github.com/HumanSignal/label-studio-ml-backend
+* Docker バージョン: 29.3.0
+* Docker Compose バージョン: v2.39.1
+
 ---
 
 ## 3. 環境構築手順
@@ -257,7 +241,7 @@ LABEL_STUDIO_URL=http://<サーバーのIPアドレス>:8080
 LABEL_STUDIO_API_KEY=<APIキー>
 ```
 
-例：
+例:
 
 ```env
 LABEL_STUDIO_URL=http://xxx.xxx.xxx.xxx:8080
@@ -290,7 +274,7 @@ Label Studio の URL と API キーを .env ファイルから読み込むよう
 - LABEL_STUDIO_API_KEY=${LABEL_STUDIO_API_KEY}
 ```
 
-修正後：
+修正後:
 
 ```yaml
   - LABEL_STUDIO_URL=${LABEL_STUDIO_URL}
