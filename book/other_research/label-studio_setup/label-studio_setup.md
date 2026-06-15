@@ -207,19 +207,19 @@ Label Studio にログイン後，以下の手順で API キーを取得する�
 1. 画面右上のユーザーアイコンをクリックし，`Account & Settings` を開く
 
 <p>
-  <img src="images/getting_APIkey_step1.png" alt="getting_APIkey_step1" width="800">
+  <img src="./images/getting_APIkey_step1.png" alt="getting_APIkey_step1" width="800">
 </p>
 
 2. `Personal Access Token` タブの `Create New Token` を開く
 
 <p>
-  <img src="images/getting_APIkey_step2.png" alt="getting_APIkey_step2" width="800">
+  <img src="./images/getting_APIkey_step2.png" alt="getting_APIkey_step2" width="800">
 </p>
 
 3. 表示された API キーをコピー
 
 <p>
-  <img src="images/getting_APIkey_step3.png" alt="getting_APIkey_step3" width="800">
+  <img src="./images/getting_APIkey_step3.png" alt="getting_APIkey_step3" width="800">
 </p>
 
 取得した API キーは，次の `.env` ファイルの設定で使用する．
@@ -365,7 +365,7 @@ http://localhost:8080
 Label Studio のログイン画面が表示されれば成功．
 
 <p>
-  <img src="images/label_studio_login.png" alt="label_studio_login" width="800">
+  <img src="./images/label_studio_login.png" alt="label_studio_login" width="800">
 </p>
 ---
 
@@ -376,31 +376,31 @@ Label Studio のログイン画面が表示されれば成功．
 1. Label Studio にログインする
 
 <p>
-  <img src="images/creating_project_step1.png" alt="creating_project_step1" width="800">
+  <img src="./images/creating_project_step1.png" alt="creating_project_step1" width="800">
 </p>
 
 2. `Create Project` をクリックする
 
 <p>
-  <img src="images/creating_project_step2.png" alt="creating_project_step2" width="800">
+  <img src="./images/creating_project_step2.png" alt="creating_project_step2" width="800">
 </p>
 
 3. プロジェクト名を入力する
 
 <p>
-  <img src="images/creating_project_step3.png" alt="creating_project_step3" width="800">
+  <img src="./images/creating_project_step3.png" alt="creating_project_step3" width="800">
 </p>
 
 4. アノテーション対象の画像をアップロードし，`Save`を押す
 
 <p>
-  <img src="images/creating_project_step4.png" alt="creating_project_step4" width="800">
+  <img src="./images/creating_project_step4.png" alt="creating_project_step4" width="800">
 </p>
 
 5. Labeling Interface を設定し，`Sava` を押す
 
 <p>
-  <img src="images/creating_project_step5.png" alt="creating_project_step5" width="800">
+  <img src="./images/creating_project_step5.png" alt="creating_project_step5" width="800">
 </p>
 
 ---
@@ -456,13 +456,13 @@ YOLO ML Backend を使う場合，Label Studio のプロジェクト設定から
 1. プロジェクトを開き，`Settings` をクリックする
 
 <p>
-  <img src="images/connecting_MLBackend_step1.png" alt="connecting_MLBackend_step1" width="800">
+  <img src="./images/connecting_MLBackend_step1.png" alt="connecting_MLBackend_step1" width="800">
 </p>
 
 2. `Model` タブを開き，`Connect Model`をクリックする
 
 <p>
-  <img src="images/connecting_MLBackend_step2.png" alt="connecting_MLBackend_step2" width="800">
+  <img src="./images/connecting_MLBackend_step2.png" alt="connecting_MLBackend_step2" width="800">
 </p>
 
 3. `Name` に任意の名前，`Backend URL` に以下の URL を入力し，`Validate and Save` をクリックする
@@ -472,34 +472,34 @@ http://localhost:9090
 ```
 
 <p>
-  <img src="images/connecting_MLBackend_step3.png" alt="connecting_MLBackend_step3" width="800">
+  <img src="./images/connecting_MLBackend_step3.png" alt="connecting_MLBackend_step3" width="800">
 </p>
 
 
 4. 作成したモデルの右上の `･･･` をクリックし，`Send Test Request` → `Send Request` で接続テストを行う
 
 <p>
-  <img src="images/connecting_MLBackend_step4.png" alt="connecting_MLBackend_step4" width="800">
+  <img src="./images/connecting_MLBackend_step4.png" alt="connecting_MLBackend_step4" width="800">
 </p>
 
 <p>
-  <img src="images/connecting_MLBackend_step5.png" alt="connecting_MLBackend_step5" width="800">
+  <img src="./images/connecting_MLBackend_step5.png" alt="connecting_MLBackend_step5" width="800">
 </p>
 
 5. 正常に接続できれば `Save` で保存する
 
 <p>
-  <img src="images/connecting_MLBackend_step6.png" alt="connecting_MLBackend_step6" width="800">
+  <img src="./images/connecting_MLBackend_step6.png" alt="connecting_MLBackend_step6" width="800">
 </p>
 
 <p>
-  <img src="images/connecting_MLBackend_step7.png" alt="connecting_MLBackend_step7" width="800">
+  <img src="./images/connecting_MLBackend_step7.png" alt="connecting_MLBackend_step7" width="800">
 </p>
 
 6. `Annotation` タブを開き，`Use predictions to prelabel tasks` を有効にして，使用するモデルを選択し，`Save` をクリックする
 
 <p>
-  <img src="images/connecting_MLBackend_step8.png" alt="connecting_MLBackend_step8" width="800">
+  <img src="./images/connecting_MLBackend_step8.png" alt="connecting_MLBackend_step8" width="800">
 </p>
 
 この設定を有効にすることで，ML Backend の予測結果がアノテーション画面に事前表示される．
@@ -513,7 +513,7 @@ http://localhost:9090
 プロジェクト内のタスクを開くと，画像が表示される．
 
 <p>
-  <img src="images/annotation_step1.png" alt="annotation_step1" width="800">
+  <img src="./images/annotation_step1.png" alt="annotation_step1" width="800">
 </p>
 
 ---
@@ -527,7 +527,7 @@ http://localhost:9090
 * 対象を水平な矩形で囲む
 
 <p>
-  <img src="images/annotation_BBox.png" alt="annotation_BBox" width="800">
+  <img src="./images/annotation_BBox.png" alt="annotation_BBox" width="800">
 </p>
 
 #### OBB の場合
@@ -536,7 +536,7 @@ http://localhost:9090
 * 通常の BBox よりも，個体の向きを反映しやすい
 
 <p>
-  <img src="images/annotation_OBB.png" alt="annotation_OBB" width="800">
+  <img src="./images/annotation_OBB.png" alt="annotation_OBB" width="800">
 </p>
 
 ---
@@ -548,7 +548,7 @@ http://localhost:9090
 `Submit` を押すことで，現在のアノテーション結果が保存される．
 
 <p>
-  <img src="images/annotation_step3.png" alt="annotation_step3" width="800">
+  <img src="./images/annotation_step3.png" alt="annotation_step3" width="800">
 </p>
 
 ---
@@ -562,13 +562,13 @@ YOLO ML Backend を接続している場合，学習済みモデルによる予�
 ↓予測結果がずれている例
 
 <p>
-  <img src="images/misaligned_BBox.png" alt="misaligned_BBox" width="800">
+  <img src="./images/misaligned_BBox.png" alt="misaligned_BBox" width="800">
 </p>
 
 BBoxの位置を手動で修正
 
 <p>
-  <img src="images/modified_BBox.png" alt="modified_BBox" width="800">
+  <img src="./images/modified_BBox.png" alt="modified_BBox" width="800">
 </p>
 
 ---
@@ -582,7 +582,7 @@ BBoxの位置を手動で修正
 1. プロジェクトを開き，`Export` をクリックする
 
 <p>
-  <img src="images/export_step1.png" alt="export_step1" width="800">
+  <img src="./images/export_step1.png" alt="export_step1" width="800">
 </p>
 
 2. 出力形式を選択し，`Export` をクリックする
