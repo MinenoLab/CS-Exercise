@@ -1,4 +1,4 @@
-# Label Studio ML Backend 環境構築・使用方法まとめ
+# Label Studio 環境構築・使用方法まとめ
 
 ## 1. 概要
 
