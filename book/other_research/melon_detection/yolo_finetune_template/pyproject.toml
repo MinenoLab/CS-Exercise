@@ -1,0 +1,14 @@
+[project]
+name = "yolo-finetune-template"
+version = "0.1.0"
+description = "Generic Ultralytics YOLO fine-tuning template for object detection."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python>=4.13.0.92",
+    "pyyaml>=6.0.0",
+    "scikit-learn>=1.4.0",
+    "torch>=2.0.0",
+    "tqdm>=4.68.1",
+    "ultralytics>=8.4.61",
+]

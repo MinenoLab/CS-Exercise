@@ -7,9 +7,9 @@
 - [**概要**](part2_image/intro)
 1. [**作業サーバーセットアップ**](part2_image/notebooks/01_setup)
 2. [**画像処理**](part2_image/notebooks/02_image_processing)
-3. [**機械学習**](CS-Exercise/part2_image/notebooks/03_machine_learning)
+3. [**機械学習**](part2_image/notebooks/03_machine_learning)
 4. [**キャッサバの病害分類（概要）**](part2_image/cassava_overview)
-5. [**キャッサバの病害分類（アプローチ例）**](part2_image/cassaba_approach_example)
+5. [**キャッサバの病害分類（アプローチ例）**](part2_image/cassava_approach_example)
 - [**まとめ**](part2_image/summary)
 ### 第2部 時系列予測パート
 - [**概要**](part3_timeseries/intro)
@@ -28,3 +28,4 @@
 - [**XREAL Beam Proアプリ試作**](other_research/beam_pro_field_input_support/beam_pro_field_input_support)
 - [**SO-ARM101 構築手順まとめ**](other_research/so-arm101_setup/so-arm101_setup)
 - [**Label Studio環境構築まとめ**](other_research/label-studio_setup/label-studio_setup)
+- [**子メロン検出モデルの構築手順**](other_research/melon_detection/README)

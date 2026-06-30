@@ -1,0 +1,7 @@
+path: datasets/custom_yolo
+train: images/train
+val: images/valid
+test: images/test
+
+names:
+  0: target_object
