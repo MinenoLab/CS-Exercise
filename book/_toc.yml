@@ -59,3 +59,5 @@ parts:
         sections:
           - file: other_research/melon_detection/yolo_finetune_template/README
             title: YOLOファインチューニングテンプレート
+      - url: https://alzobaer.github.io/3dgs-pipeline-manual/
+        title: 3DGSパイプラインマニュアル

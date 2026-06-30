@@ -29,3 +29,4 @@
 - [**SO-ARM101 構築手順まとめ**](other_research/so-arm101_setup/so-arm101_setup)
 - [**Label Studio環境構築まとめ**](other_research/label-studio_setup/label-studio_setup)
 - [**子メロン検出モデルの構築手順**](other_research/melon_detection/README)
+- [**3DGSパイプラインマニュアル**](https://alzobaer.github.io/3dgs-pipeline-manual/)
