@@ -230,14 +230,14 @@ cd ~/label-studio-ml-backend/label_studio_ml/examples/yolo
 
 `.env` ファイルを作成し，以下のように Label Studio の URL と API キーを記述する．
 
-```env
+```text
 LABEL_STUDIO_URL=http://<サーバーのIPアドレス>:8080
 LABEL_STUDIO_API_KEY=<APIキー>
 ```
 
 例:
 
-```env
+```text
 LABEL_STUDIO_URL=http://xxx.xxx.xxx.xxx:8080
 LABEL_STUDIO_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
@@ -645,5 +645,3 @@ http://localhost:8080
 ```
 
 Label Studio の画面が表示されれば起動完了である．
-
----
