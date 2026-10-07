@@ -45,6 +45,8 @@ parts:
             title: 03. Spresenseセットアップ
           - file: part4_iot/04_iot_physical_install
             title: 04. 現場作業注意事項
+          - file: part4_iot/05_knowhow_measurement
+            title: 05. 自然界を測定する技術
             
   - caption: その他教育・研究関連コンテンツ
     chapters:
