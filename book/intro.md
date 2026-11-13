@@ -30,3 +30,4 @@
 - [**Label Studio環境構築まとめ**](other_research/label-studio_setup/label-studio_setup)
 - [**子メロン検出モデルの構築手順**](other_research/melon_detection/README)
 - [**3DGSパイプラインマニュアル**](https://alzobaer.github.io/3dgs-pipeline-manual/)
+- [**Unitree Go2を題材とした強化学習の実施**](other_research/unitree-Go2-Reinforcement-Learning/01_概要.md)

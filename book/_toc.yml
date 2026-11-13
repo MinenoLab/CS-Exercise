@@ -63,3 +63,22 @@ parts:
             title: YOLOファインチューニングテンプレート
       - url: https://alzobaer.github.io/3dgs-pipeline-manual/
         title: 3DGSパイプラインマニュアル
+      - file: other_research/unitree-Go2-Reinforcement-Learning/01_概要.md
+        title: Unitree Go2を題材とした強化学習の実施
+        sections:
+          - file: other_research/unitree-Go2-Reinforcement-Learning/02_強化学習環境セットアップ.md
+            title: 02. 強化学習環境セットアップ
+          - file: other_research/unitree-Go2-Reinforcement-Learning/03_シミュレーション環境のセットアップ.md
+            title: 03. シミュレーション環境のセットアップ.md
+          - file: other_research/unitree-Go2-Reinforcement-Learning/04_強化学習のチュートリアル.md
+            title: 04. 強化学習のチュートリアル
+          - file: other_research/unitree-Go2-Reinforcement-Learning/05_強化学習の実行.md
+            title: 05. 強化学習の実行
+          - file: other_research/unitree-Go2-Reinforcement-Learning/06_強化学習結果の観察.md
+            title: 06. 強化学習結果の観察
+          - file: other_research/unitree-Go2-Reinforcement-Learning/07_シミュレーター環境での実行.md
+            title: 07. シミュレーター環境での実行
+          - file: other_research/unitree-Go2-Reinforcement-Learning/08_強化学習の流れ.md
+            title: 08. 強化学習の流れ
+          
+          
