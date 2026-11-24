@@ -84,6 +84,8 @@ parts:
         title: 四足歩行ロボットの歩行制御開発におけるノウハウ集
         sections:
           - file: other_research/Lessons-Learned-from-PhysicalAI-Development-with-Unitree-Go2/第2章_環境構築での失敗.md
-            title: 試行錯誤集（環境構築）
+            title: 試行錯誤集（環境構築編）
           - file: other_research/Lessons-Learned-from-PhysicalAI-Development-with-Unitree-Go2/第3章_強化学習での失敗.md
-            title: 試行錯誤集（強化学習）
+            title: 試行錯誤集（強化学習編）
+
+
