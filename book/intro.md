@@ -31,3 +31,4 @@
 - [**子メロン検出モデルの構築手順**](other_research/melon_detection/README)
 - [**3DGSパイプラインマニュアル**](https://alzobaer.github.io/3dgs-pipeline-manual/)
 - [**Unitree Go2を題材とした強化学習の実施**](other_research/unitree-Go2-Reinforcement-Learning/01_概要.md)
+- [**四足歩行ロボットの歩行制御ノウハウ集**](other_research/Lessons-Learned-from-PhysicalAI-Development-with-Unitree-Go2/第1章 導入.md)
